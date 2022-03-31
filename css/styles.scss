@@ -1,0 +1,17 @@
+@import "vars";
+
+body {
+  font-family: $font-family;
+}
+
+
+
+// FOOTER
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  
+  & a {
+    color: hsl(228, 45%, 44%);
+  }
+}

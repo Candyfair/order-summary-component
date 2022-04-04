@@ -2,7 +2,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   background: url(../images/pattern-background-desktop.svg) top center no-repeat;
   background-size: 100%;
-  background-color: #e0e8ff;
+  background-color: hsl(225deg, 100%, 94%);
 }
 
 main {
@@ -40,19 +40,19 @@ main {
   height: 220px;
 }
 .container h1 {
-  margin-top: 45px;
+  margin-top: 44px;
   font-size: 28px;
   font-weight: 900;
   text-align: center;
-  color: #1f2f56;
+  color: hsl(223deg, 47%, 23%);
 }
 .container p {
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   text-align: center;
-  color: #7280a7;
-  margin-top: 17px;
+  color: hsl(224deg, 23%, 55%);
+  margin-top: 15px;
   margin-bottom: 20px;
 }
 .container-plan {
@@ -61,7 +61,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 25px 24px;
-  background-color: #f5f7ff;
+  background-color: hsl(225deg, 100%, 98%);
   border-radius: 11px;
 }
 .container-plan-left {
@@ -76,21 +76,21 @@ main {
 .container-plan .plan-title {
   font-weight: 900;
   line-height: 21.17px;
-  color: #1f2f56;
+  color: hsl(223deg, 47%, 23%);
 }
 .container-plan .plan-price {
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
   line-height: 21.17px;
 }
 .container-plan a {
   text-decoration: underline;
-  color: #3829e0;
+  color: hsl(245deg, 75%, 52%);
   font-weight: 900;
   font-size: 14px;
 }
 .container-plan a:hover {
   text-decoration: none;
-  color: #756af1;
+  color: hsl(245deg, 83%, 68%);
 }
 .container button {
   width: 100%;
@@ -99,18 +99,18 @@ main {
   border: none;
   border-radius: 11px;
   color: white;
-  background-color: #3829e0;
+  background-color: hsl(245deg, 75%, 52%);
   font-size: 15px;
   line-height: 19.85px;
   font-weight: 900;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
 }
 .container button:hover {
-  background-color: #756af1;
+  background-color: hsl(245deg, 83%, 68%);
 }
 .container .cancel {
   display: block;
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
   text-align: center;
   font-size: 15px;
   font-weight: 900;
@@ -118,7 +118,7 @@ main {
   text-decoration: none;
 }
 .container .cancel:hover {
-  color: #1f2f56;
+  color: hsl(223deg, 47%, 23%);
 }
 
 footer {
@@ -126,14 +126,14 @@ footer {
   text-align: center;
 }
 footer a {
-  color: #3e52a3;
+  color: hsl(228deg, 45%, 44%);
 }
 
 @media (max-width: 375px) {
   body {
     background: url(../images/pattern-background-mobile.svg) top center no-repeat;
     background-size: 100%;
-    background-color: #e0e8ff;
+    background-color: hsl(225deg, 100%, 94%);
   }
 
   main {
@@ -171,7 +171,7 @@ footer a {
   .container-plan {
     padding: 16px;
     padding-top: 17px;
-    background-color: #f5f7ff;
+    background-color: hsl(225deg, 100%, 98%);
     border-radius: 11px;
   }
   .container-plan .plan-title {
